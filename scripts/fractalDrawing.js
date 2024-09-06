@@ -104,9 +104,9 @@ function zoomOut() {
 }
 
 function resetView() {
-	zoomLevel = 0.7;
-	centerX = -0.7;
-	centerY = 0;
+	zoomLevel = 1;
+	centerX = 1.7;
+	centerY = 1.7;
 	updateFractal();
 }
 
